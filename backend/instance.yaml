@@ -1,0 +1,6 @@
+# Configuration for https://github.com/plone/cookiecutter-zope-instance
+
+default_context:
+    initial_user_password: 'admin'
+    zcml_package_includes: 'ploneconf.site'
+    debug_mode: true

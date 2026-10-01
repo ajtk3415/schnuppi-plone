@@ -1,0 +1,57 @@
+// Styles for the custom site footer (./Footer.jsx).
+// Change the values below to restyle the footer.
+.site-footer {
+  --footer-background: #2b2b2b;
+  --footer-text-color: #dddddd;
+  --footer-link-color: #ffffff;
+  --footer-link-hover-color: #7fd3f7;
+  --footer-padding: 3rem;
+  --footer-gap: 2rem;
+
+  padding: var(--footer-padding) 0;
+  margin-top: 2rem;
+  background: var(--footer-background);
+  color: var(--footer-text-color);
+
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: var(--footer-gap);
+  }
+
+  .footer-site-name {
+    margin-bottom: 0.5rem;
+    color: var(--footer-link-color);
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+
+  .footer-text {
+    max-width: 30rem;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    gap: 1rem 1.5rem;
+    list-style: none;
+
+    a {
+      color: var(--footer-link-color);
+
+      &:hover {
+        color: var(--footer-link-hover-color);
+      }
+    }
+  }
+
+  .footer-copyright {
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    margin-top: var(--footer-gap);
+    font-size: 0.875rem;
+  }
+}
