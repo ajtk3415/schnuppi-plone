@@ -111,7 +111,7 @@ importers:
   .:
     dependencies:
       '@kitconcept/volto-carousel-block':
-        specifier: '*'
+        specifier: 3.0.0
         version: 3.0.0(classnames@2.5.1)(embla-carousel@8.5.2)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       '@plone/registry':
         specifier: workspace:*
@@ -1358,9 +1358,15 @@ importers:
       react-dom:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
+      react-intl:
+        specifier: 3.12.1
+        version: 3.12.1(@types/react@18.3.31)(react@18.2.0)
       react-redux:
         specifier: 8.1.2
         version: 8.1.2(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1)
+      react-router-dom:
+        specifier: 5.2.0
+        version: 5.2.0(react@18.2.0)
       semantic-ui-react:
         specifier: 2.1.5
         version: 2.1.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
